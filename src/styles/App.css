@@ -1,0 +1,17 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    background-image: url('../images/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header_container, .footer_container {
+    flex-shrink: 0;
+}
+.main_container {
+    flex-grow: 1;
+}
