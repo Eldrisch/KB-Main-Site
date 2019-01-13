@@ -49,7 +49,8 @@ a,a:visited {
     color: inherit;
 }
 a:hover {
-    color: rgb(133, 221, 255);
+    color: rgb(80, 185, 255);
+    transition: ease 0.8s;
 }
 a:active {
     text-shadow: 0px 2px 2px black;

@@ -23,5 +23,6 @@
 @media screen and (max-width: 550px) {
     .navigation_bar > * {
         display: inline-flex;
+        padding-top: 10px;
     }
 }

@@ -11,7 +11,8 @@
   z-index: 10;
 }
 .main_content {
-  margin: 40px auto;
+  margin: 100px auto;
+  padding-top: 100px;
 }
 /* klasy dla mySkillsPage.jsx */
 .skills_container {
