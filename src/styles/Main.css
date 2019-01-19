@@ -66,6 +66,9 @@
 .home_info {
   text-decoration-line: overline;
 }
+.home_description a {
+  text-decoration-line: underline;
+}
 /* klasy dla aboutPage.jsx */
 .about_container {
   width: 60%;
