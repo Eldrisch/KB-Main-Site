@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class About extends Component {
-    render() {
+const About = () => {
+    
         return (
             <div className="about_container">
                 <h3>Parę informacji o mnie :)</h3>
@@ -16,6 +16,6 @@ class About extends Component {
                 <p>Postanowiłem chwycić byka za rogi i w końcu pracować na poważnie, przy okazji robiąc to co lubię i mnie fascynuje. W przyszłości chciałbym być współtwórcą gier komputerowych znanych marek i stworzyć swoją własną działalność w tej branży.</p>
             </div>
         );
-    }
+    
 }
 export default About;

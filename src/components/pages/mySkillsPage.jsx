@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import JsLogo from '../../images/JS.png';
 import Css3Logo from '../../images/css3.png';
 import Html5Logo from '../../images/html5.png';
@@ -10,8 +10,8 @@ import VueLogo from '../../images/vue.png';
 import CppLogo from '../../images/c++.png';
 import JavaLogo from '../../images/java.png';
 
-class Skills extends Component {
-    render() {
+const Skills = () => {
+    
         return (
             <div className="skills_container">
                 <div className="skills_box">
@@ -96,6 +96,6 @@ class Skills extends Component {
                 </div>
             </div >
         );
-    }
+    
 }
 export default Skills;

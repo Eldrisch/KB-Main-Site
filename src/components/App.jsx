@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../styles/App.css';
 import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
 
-class App extends Component {
-  render() {
+const App = () => {
+  
     return (
       <div className="container">
         <div className="header_container">
@@ -19,7 +19,7 @@ class App extends Component {
         </div>
       </div>
     );
-  }
+  
 }
 
 export default App;

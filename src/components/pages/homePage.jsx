@@ -1,8 +1,8 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Me from '../../images/portrait.jpg';
 
-class Home extends Component {
-    render() {
+const Home = () => {
+    
         return (
             <div className="home_container">
                 <h3>Strona główna</h3>
@@ -19,6 +19,6 @@ class Home extends Component {
                 <h2 className="home_info">Strona w fazie modernizacji :)</h2>
             </div>
         );
-    }
+    
 }
 export default Home;
